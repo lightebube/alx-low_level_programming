@@ -1,9 +1,10 @@
 #include <stdio.h>
-/*main-Prints message "\"Programming is like building a multilingual puzzle"
+/*
+ *main-Prints message "\"Programming is like building a multilingual puzzle"
  *Return = Always 0 (Success)
  */
 
-int main(void) 
+int main(void)
 {
 	const char *message = "\"Programming is like building a multilingual puzzle";
 
