@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * Main - Prints the message "with proper grammar, but the outcome is a piece of art,"
+ * Main - Entry point
  * Return - Always 0 (Success)
  */
 
