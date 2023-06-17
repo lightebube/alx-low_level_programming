@@ -5,6 +5,7 @@
  */
 
 int main(void)
+	/*main - Entry point*/
 {
 	const char *message = "with proper grammar, but the outcome is a piece of art,";
 
