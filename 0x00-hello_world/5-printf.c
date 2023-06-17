@@ -1,12 +1,11 @@
 #include <stdio.h>
 /*
- * Main - Entry point
  * Return - Always 0 (Success)
  */
 
 int main(void)
 	/**
-	 * main - Entry point
+	 * main - Prints "with proper grammar, but the outcome is a piece of art,"
 	 * Return: Always 0 (Success)
 	 */
 {
