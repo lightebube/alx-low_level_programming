@@ -1,11 +1,13 @@
 #include <stdio.h>
 /*
- * int main - Prints the size of all the types
  * Return - Always 0 (Success)
  */
 
+/**
+ * main - Prints the sizes of types
+ * Return: Always 0 (Success)
+ */
 int main(void)
-	/*int main - Prints the size of all the types*/
 {
 	printf("Size of a char: %zu byte(s)\n", sizeof(char));
 	printf("Size of an int: %zu byte(s)\n", sizeof(int));
