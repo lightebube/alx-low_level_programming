@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Print"with proper grammar, but the outcome is a piece of art,"
+ * main - Prints a sentence
  * Return: Always 0
  */
 int main(void)
