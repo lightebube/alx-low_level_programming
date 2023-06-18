@@ -10,11 +10,12 @@ int main(void)
 
 	while (lowercase <= 'z')
 	{
-		if (lowercase != 'y' && lowercase != 'k')
+		while (lowercase != 'q' && lowercase != 'e')
 		{
 			putchar(lowercase);
-			lowercase++;
 		}
+
+		lowercase++;
 	}
 
 	putchar('\n');
