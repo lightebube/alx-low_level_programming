@@ -1,12 +1,12 @@
 #include <stdio.h>
-/*
+
+/**
  * main = Checks if n is positive or negative
  * Return = Always 0 (Success)
  */
-
 int main(void)
 {
-	int n;
+	int n = -345;
 
 	if ( 0 < n ) 
 	{
