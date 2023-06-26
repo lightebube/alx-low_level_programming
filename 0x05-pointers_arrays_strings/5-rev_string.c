@@ -6,6 +6,7 @@
  * @s: string
  * Return: nothing
  */
+
 void rev_string(char *s)
 {
 	int h = strlen(s);
