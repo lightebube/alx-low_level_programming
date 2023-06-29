@@ -5,11 +5,26 @@
  * _strcat - Concatenates two strings
  * @dest: first string
  * @src: second string
+ *
  * Return: 0
  */
 char *_strcat(char *dest, char *src)
 {
-	strcat(dest, src);
+	char *ptr = dest;
 
-	return (0);
+	while (*ptr != '\0')
+	{
+		ptr++;
+	}
+
+	while (*src != '\0')
+	{
+		*ptr = *src;
+		ptr++;
+		src++;
+	}
+	
+	*ptr = '\0';
+
+	return (dest);
 }
