@@ -11,13 +11,7 @@
 unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int accept_length = strlen(accept);
-	unsigned int s_length = strlen(s);
 	unsigned int i;
-
-	if (accept_length > s_length)
-	{
-		return (0);
-	}
 
 	for (i = 0; i < accept_length; i++)
 	{
