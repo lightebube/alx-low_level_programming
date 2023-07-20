@@ -18,7 +18,6 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(1);
 	}
-
 	bit = atoi(argv[i]);
 
 	if (bit < 0)
@@ -26,7 +25,6 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(2);
 	}
-
 	a = (char *)main;
 
 	for (i = 0; i < bit; i++)
